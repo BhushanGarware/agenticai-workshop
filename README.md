@@ -2,7 +2,7 @@
 A starter kit for building basic AI agents with the Gemini API. Covers examples using LangChain, LangGraph, the Google ADK, and an MCP server.
 
 ## Getting Started 
-### Get your Gemini API KEY
+### 1. Get your Gemini API KEY
 You can get a free Gemini API key for learning and development purposes directly from [Google AI Studio](https://aistudio.google.com/).
 This key provides access to a generous free tier, which is perfect for learning, prototyping, and personal projects.
 
@@ -30,4 +30,32 @@ Your new API key will be generated and displayed. This is the only time you will
 1. Treat your API key like a password. Never share it publicly.
 2. Do not paste it into your code if you are sharing that code (e.g., on GitHub).
 
-For projects, use environment variables to store your key securely.
+###### For projects, use environment variables to store your key securely.
+
+### 2. Installing Google ADK
+1. ##### Create & activate virtual environment:
+We recommend creating a virtual Python environment using venv:
+
+             python -m venv adk_workshop
+
+Now, you can activate the virtual environment using the appropriate command for your operating system and environment:
+
+              # Mac / Linux 
+              source adk_workshop/bin/activate
+              # Windows CMD:
+              adk_workshop\Scripts\activate.bat
+              # Windows PowerShell:
+              adk_workshop\Scripts\Activate.ps1
+
+Install ADK
+
+             pip install google-adk
+
+
+### 3. Installing Google ADK
+
+
+             
+
+
+
