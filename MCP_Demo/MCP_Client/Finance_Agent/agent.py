@@ -2,7 +2,7 @@ import os
 from google.adk.agents import LlmAgent
 from google.adk.tools.mcp_tool.mcp_toolset import MCPToolset, StdioServerParameters
 
-FINANCIAL_SERVER_SCRIPT_PATH = os.path.abspath("/Users/bgarware/adk_workshop/MCP_Demo/MCP_Server/mcp-server/server.py")
+FINANCIAL_SERVER_SCRIPT_PATH = os.path.abspath("Your server path")
 print(f"Financial Advisory Agent connecting to: {FINANCIAL_SERVER_SCRIPT_PATH}")
 
 MCP_COMMAND = 'python3'  # Assumes the server is a Python script
