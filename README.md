@@ -55,7 +55,8 @@ Install ADK
 ### 3. Running MCP Demo
 1. #### Install required packages
              pip install "mcp[cli]" httpx
-
+2. #### Get API Key
+    Get a free API key from https://www.financialdatasets.ai/ and update .env file in MCP_Server
 
 
              
