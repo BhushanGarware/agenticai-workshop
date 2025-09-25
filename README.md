@@ -64,6 +64,15 @@ Install ADK
 financial-datasets-mcp - INFO - Starting Financial Datasets MCP Server...
 This means the server is ready to accept JSON-RPC requests from any MCP-compatible client, including your ADK agent.
 
+4. #### Run the MCP Client
+   Update the .env with GOOGLE_API_KEY and execute from parent directory 
+   
+            adk-web 
+   
+   
+   
+  
+
 
              
 
