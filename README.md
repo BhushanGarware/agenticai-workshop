@@ -52,7 +52,10 @@ Install ADK
              pip install google-adk
 
 
-### 3. Installing Google ADK
+### 3. Running MCP Demo
+1. #### Install required packages
+             pip install "mcp[cli]" httpx
+
 
 
              
