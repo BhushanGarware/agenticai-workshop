@@ -57,6 +57,12 @@ Install ADK
              pip install "mcp[cli]" httpx
 2. #### Get API Key
     Get a free API key from https://www.financialdatasets.ai/ and update .env file in MCP_Server
+3. #### Run the MCP Server
+            python server.py
+   Once the server is running, you should see a message like:
+
+financial-datasets-mcp - INFO - Starting Financial Datasets MCP Server...
+This means the server is ready to accept JSON-RPC requests from any MCP-compatible client, including your ADK agent.
 
 
              
