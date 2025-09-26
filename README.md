@@ -67,7 +67,7 @@ This means the server is ready to accept JSON-RPC requests from any MCP-compatib
 4. #### Run the MCP Client
    Update the .env with GOOGLE_API_KEY and execute from parent directory 
    
-            adk-web 
+            adk web 
    
    
    
