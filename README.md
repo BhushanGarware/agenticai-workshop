@@ -1,5 +1,5 @@
 # agenticai-workshop
-A starter kit for building basic AI agents with the Gemini API. Covers examples using LangChain, LangGraph, the Google ADK, and an MCP server.
+A starter kit for building basic AI agents with the Gemini API. Covers examples to be executed using Google Colab, using LangChain, LangGraph, the Google ADK, and an MCP server.
 
 ## Getting Started 
 ### 1. Get your Gemini API KEY
